@@ -1,0 +1,80 @@
+
+
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49,49,49);
+  color: white;
+  height: 100vh;
+}
+
+#home {
+  font-size: 44px;
+}
+
+
+li:hover {
+  background-color: #eaeaea;
+}
+
+#product-card {
+  background-color: rgb(210, 222, 236);
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+#product-card .card-title, .card-text {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#body-2 {
+  display: flex;
+}
+
+
+#product-card  a {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10%;
+  font-size: 16px;
+  width: 60px;
+  text-align: center;
+  color: white;
+  background-color: rgb(75, 75, 138);
+  padding-top: 5px;
+  
+}
+
+#delete-btn {
+  background-color: red;
+  font-size: 16px;
+}
+
+.cart-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+#cart-card {
+  background-color: rgb(210, 222, 236);
+}
+
+#cart-card button {
+  width: 100px;
+  justify-content: center;
+  margin: 10px;
+}
+
+#cart-total {
+  font-size: 34px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  color: greenyellow;
+}

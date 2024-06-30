@@ -1,0 +1,21 @@
+.button:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
+}
+
+Form {
+    display: flexbox;
+    width: 800px;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.input {
+    height: 80px;
+}
+
